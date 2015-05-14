@@ -10,6 +10,9 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
+        MyTest test = new MyTest();
+        test.testScramble();
+
         Scramble scam = new Scramble();
         scam.startRead();
 
